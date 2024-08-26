@@ -11,7 +11,6 @@ public class Link
 
     [Required] [MaxLength(10)] public string Slug { get; set; }
 
-    public DateTime Created { get; set; } = DateTime.Now;
-    public DateTime Modified { get; set; } = DateTime.Now;
-    
+    public DateTime Created { get; set; } = DateTime.UtcNow;
+    public DateTime Modified { get; set; } = DateTime.UtcNow;
 }
