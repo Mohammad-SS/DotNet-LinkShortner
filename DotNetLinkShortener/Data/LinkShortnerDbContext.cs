@@ -10,4 +10,5 @@ public class LinkShortnerDbContext : DbContext
     }
 
     public DbSet<Link> Links { get; set; }
+    public DbSet<LinkView> LinkViews { get; set; }
 }
