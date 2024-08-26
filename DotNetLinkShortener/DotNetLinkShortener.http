@@ -1,0 +1,6 @@
+@DotNetLinkShortener_HostAddress = http://localhost:5220
+
+GET {{DotNetLinkShortener_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
