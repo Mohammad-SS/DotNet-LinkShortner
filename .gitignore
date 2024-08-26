@@ -1,5 +1,6 @@
 ﻿### DotnetCore template
 # .NET Core build folders
+.idea/
 bin/
 obj/
 
